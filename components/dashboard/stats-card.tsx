@@ -1,0 +1,2 @@
+type StatsCardProps = { label: string; value: string; detail: string };
+export function StatsCard({ label, value, detail }: StatsCardProps) { return <article className="rounded-xl border border-border bg-card p-5 shadow-sm"><p className="text-sm text-muted-foreground">{label}</p><p className="mt-2 text-2xl font-semibold tracking-tight">{value}</p><p className="mt-3 text-xs text-muted-foreground">{detail}</p></article>; }
